@@ -6,3 +6,4 @@ RUN pip install pandas numpy ipywidgets matplotlib plotly servicex servicex_clie
 USER $NB_UID
 COPY ./demo1.ipynb /home/jovyan
 COPY ./demo2.ipynb /home/jovyan
+COPY ./README.md /home/jovyan
